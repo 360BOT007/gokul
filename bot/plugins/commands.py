@@ -23,9 +23,9 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**Join My Updates Channel to use ME 😎 🤭**",
+                text="🔊 ഞങ്ങളുടെ 𝙈𝙖𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 ജോയിൻ ചെയ്താൽ മാത്രമേ സിനിമ ലഭിക്കുകയുള്ളൂ.🤷‍ചാനലിൽ 𝗷𝗼𝗶𝗻 ചെയ്തിട്ട് ഒന്നുകൂടി 𝗧𝗿𝘆 ചെയ്യ്. ❤️😁\n\n🔘▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔘\n\n🔊𝗧𝗵𝗲 𝗠𝗼𝘃𝗶𝗲 𝗶𝘀 𝗢𝗻𝗹𝘆 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗶𝗳 𝘆𝗼𝘂 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹.🤷‍ 𝗦𝗼, 𝗝𝗼𝗶𝗻 𝗡𝗼𝘄 & 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻. ♥️😁",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="𝗝𝗢𝗜𝗡 & 𝗧𝗥𝗬", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -56,7 +56,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '⭕𝘕𝘌𝘞 𝘔𝘖𝘝𝘐𝘌𝘚⭕', url="https://t.me/CCM_Movies"
                                 )
                         ]
                     ]
@@ -75,7 +75,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '⭕𝘕𝘌𝘞 𝘔𝘐𝘝𝘐𝘌𝘚⭕', url="https://t.me/CCM_Movies"
                                 )
                         ]
                     ]
@@ -94,7 +94,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '⭕𝘕𝘌𝘞 𝘔𝘖𝘝𝘐𝘌𝘚⭕', url="https://t.me/CCM_Movies"
                                 )
                         ]
                     ]
@@ -107,10 +107,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🔰 𝘎𝘳𝘰𝘶𝘱🔰', url='https://t.me/moviesmediagroup'),
+        InlineKeyboardButton('🔰𝘊𝘩𝘢𝘯𝘯𝘦𝘭🔰', url ='https://t.me/CCM_Movies')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🔰𝘚𝘶𝘱𝘱𝘰𝘳𝘵🔰', url='http://t.me/moviesmediamanagerbot')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
