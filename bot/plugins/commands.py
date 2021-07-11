@@ -122,6 +122,7 @@ async def start(bot, update):
         text=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
+        disable_web_page_preview=True, 
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
